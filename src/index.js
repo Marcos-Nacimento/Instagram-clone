@@ -8,7 +8,7 @@ import { MaterialCommunityIcons } from '@expo/vector-icons'
 const icons = 
 {
     home: {
-        name: 'home'
+        name: 'home-outline'
     },
     search: {
         name: 'magnify'
@@ -17,15 +17,16 @@ const icons =
         name: 'tooltip-plus-outline'
     },
     favorite: {
-        name: 'heart'
+        name: 'heart-outline'
     },
     profile: {
-        name: 'account'
+        name: 'account-outline'
     }
 
 }
 
 import HomeScreen from './pages/home'
+import ProfileScreen from './components/profile'
 
 const Tabs = createBottomTabNavigator()
 
@@ -39,7 +40,6 @@ export default () => {
 
                     tabBarIcon: ({ size, color }) => {
                         
-
                         const { name } = icons[route.name]
                         return <MaterialCommunityIcons name={name} size={size} color={color} />;
                     }
@@ -57,7 +57,7 @@ export default () => {
                 <Tabs.Screen name='search' component={HomeScreen} />
                 <Tabs.Screen name='add' component={HomeScreen} />
                 <Tabs.Screen name='favorite' component={HomeScreen} />
-                <Tabs.Screen name='profile' component={HomeScreen} />
+                <Tabs.Screen name='profile' component={ProfileScreen} />
             </Tabs.Navigator>
         </NavigationContainer>
     )
