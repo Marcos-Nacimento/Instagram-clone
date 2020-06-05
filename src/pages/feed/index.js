@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 
 import 
 {
@@ -15,6 +15,7 @@ import { Feather as Icon } from '@expo/vector-icons'
 import { database } from '../../components/data'
 
 export default () => {
+    
     return(
         <View>
             {database.map((ps) => (
@@ -33,20 +34,16 @@ export default () => {
                     </View>
                     <View style={styles.lineIcons}>
                         <TouchableOpacity>
-                            <Icon name="heart" size={24}  />
+                            <Icon name="heart" size={24} />
                         </TouchableOpacity>
                         <TouchableOpacity>
                             <Icon name="message-circle" size={24}  />
                         </TouchableOpacity>
                         <TouchableOpacity>
                             <Icon name="send" size={24}  />
-                        </TouchableOpacity>
-                        <TouchableOpacity style={styles.endIcon}>
-                            <Icon name="bookmark" size={24}  />
-                        </TouchableOpacity>              
+                        </TouchableOpacity>                  
                     </View>
-                </>
-              
+                </>        
             ))}
          </View>
     )
@@ -86,8 +83,7 @@ const styles = StyleSheet.create({
     },
     lineIcons: {
         flexDirection: 'row',
-        justifyContent: 'space-around',
-        padding: 12,
+        justifyContent: 'flex-start',
+        margin: 12,
     },
-
-  });
+});
