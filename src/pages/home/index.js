@@ -5,25 +5,22 @@ import
     StyleSheet, 
     View, 
     SafeAreaView,
-    ScrollView, 
+    ScrollView,
 
 } from 'react-native'
 
 import Header from '../../components/header'
 import Stories from '../../components/stories'
-import Posts from '../../components/posts'
+import Feed from '../feed'
 
 export default () => {
     return(
         <SafeAreaView style={style.container}>
             <Header />
-            <View>
-                <ScrollView>
-                    <Stories />
-                    <Posts />
-                </ScrollView>
-
-            </View>
+            <ScrollView showsVerticalScrollIndicator={false}>
+                <Stories />
+                <Feed />
+            </ScrollView>
         </SafeAreaView>
     )
 }
