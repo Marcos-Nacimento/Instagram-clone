@@ -12,6 +12,7 @@ import Header from '../../components/header'
 import Stories from '../../components/stories'
 import Feed from '../feed'
 
+
 export default () => {
     return(
         <SafeAreaView style={style.container}>
