@@ -23,16 +23,16 @@ export default () => {
                     <View>
                         <View style={styles.header}>
                             <View style={styles.headerLeft}>
-                                <Icon style={styles.avatar} name='user' size={24} />
-                                <Text style={styles.username}>{ps.name}</Text>
-                                <TouchableOpacity>
-                                    <Icon name="more-horizontal" size={24} />
-                                </TouchableOpacity>
+                                <Image style={styles.avatar} source={{uri: 'https://images.squarespace-cdn.com/content/v1/51435924e4b02285c8b9c92d/1435276997644-5WE6FAVOB6Y9HZH89Y7A/ke17ZwdGBToddI8pDm48kNBhxsR5AixTPaSt36FQjZRZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIHEpb-MmdDNvFVgjmeoENIlexef176In2EgYPtI8R2-8KMshLAGzx4R3EDFOm1kBS/caiobraga-perfil.jpg'}} key={String(Math.random())}/>
+                                <Text style={styles.username}>{ps.name}</Text>              
                             </View>
+                            <TouchableOpacity>
+                                <Icon name="more-horizontal" size={24} />
+                            </TouchableOpacity>
                         </View>
                         <Image style={{width: '100%', height: 400}} source={{uri: ps.post}} key={ps.id} />
                     </View>
-                    <View style={styles.lineIcons}>
+                    <View style={styles.foolter}>
                         <TouchableOpacity>
                             <Icon name="heart" size={24} />
                         </TouchableOpacity>
@@ -41,7 +41,7 @@ export default () => {
                         </TouchableOpacity>
                         <TouchableOpacity>
                             <Icon name="send" size={24}  />
-                        </TouchableOpacity>                  
+                        </TouchableOpacity>          
                     </View>
                 </>        
             ))}
@@ -81,9 +81,8 @@ const styles = StyleSheet.create({
         marginBottom: 16,
         fontWeight: "500",
     },
-    lineIcons: {
-        flexDirection: 'row',
-        justifyContent: 'flex-start',
-        margin: 12,
-    },
+    foolter: {
+        flexDirection: "row",
+        marginLeft: 15,
+    },  
 });
