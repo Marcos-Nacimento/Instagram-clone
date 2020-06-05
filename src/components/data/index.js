@@ -3,27 +3,33 @@ export const database =
     // posts
     {
       id: '75',
-      post: 'https://jornadakamoi.files.wordpress.com/2014/10/img_9078.jpg'
+      post: 'https://jornadakamoi.files.wordpress.com/2014/10/img_9078.jpg',
+      name: 'Carlos',
     },
     {
       id: '42',
-      post: 'https://ak.picdn.net/shutterstock/videos/9727475/thumb/1.jpg'
+      post: 'https://ak.picdn.net/shutterstock/videos/9727475/thumb/1.jpg',
+      name: 'Jose',
     },
     {
       id: '41',
-      post: 'https://i.pinimg.com/originals/b1/f2/0e/b1f20e60bee76a2ac38df2c36be25235.jpg'
+      post: 'https://i.pinimg.com/originals/b1/f2/0e/b1f20e60bee76a2ac38df2c36be25235.jpg',
+      name: 'Luiz',
     },
     {
       id: '52',
-      post: 'https://i.pinimg.com/originals/68/d4/77/68d477293ad1729027bc7da7a4bbfa4c.jpg'
+      post: 'https://i.pinimg.com/originals/68/d4/77/68d477293ad1729027bc7da7a4bbfa4c.jpg',
+      name: 'Marcos',
     },
     {
       id: '15',
-      post: 'https://www.gazetaesportiva.com/wp-content/uploads/imagem/2020/04/07/EPxx4hJWAAAMS-M-1024x674.jpg'
+      post: 'https://www.gazetaesportiva.com/wp-content/uploads/imagem/2020/04/07/EPxx4hJWAAAMS-M-1024x674.jpg',
+      name: 'Mateus',
     },
     {
       id: '5',
-      post: 'https://media.glassdoor.com/l/63/35/7d/bb/thompson-island-4k.jpg'
+      post: 'https://media.glassdoor.com/l/63/35/7d/bb/thompson-island-4k.jpg',
+      name: 'Matias',
     },
     
   ]
