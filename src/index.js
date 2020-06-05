@@ -1,5 +1,5 @@
 import React from 'react'
-import { StatusBar } from 'react-native'
+import { StatusBar, Image, TouchableOpacity, } from 'react-native'
 
 import { NavigationContainer } from '@react-navigation/native'
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'
@@ -39,6 +39,7 @@ export default () => {
 
                     tabBarIcon: ({ size, color }) => {
                         
+
                         const { name } = icons[route.name]
                         return <MaterialCommunityIcons name={name} size={size} color={color} />;
                     }
