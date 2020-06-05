@@ -32,10 +32,10 @@ export default () => {
     return(
         <View style={styles.container}>
             <ScrollView horizontal showsHorizontalScrollIndicator={false} >
-                {users.map((user) => (
+                {users.map((item) => (
                     <TouchableOpacity style={styles.content}>
-                        <Image style={{width: 60, height: 60, borderRadius: 33}} source={{uri: user.picture}} key={user.id} />
-                        <Text style={styles.label} key={user.id}>{user.name}</Text>
+                        <Image style={{width: 60, height: 60, borderRadius: 33}} source={{uri: item.user}} key={item.id} />
+                        <Text style={styles.label} key={item.id}>{item.name}</Text>
                     </TouchableOpacity>
                 ))}
             </ScrollView>
