@@ -10,7 +10,7 @@ import
 
 } from 'react-native'
 
-const USER = 'Gaby Gates'
+const USER = 'Marcos Nacimento'
 
 const POSTS = 1.535
 const FOLLOWERS = 621
@@ -19,11 +19,13 @@ const FOLLOWING = 839
 export default () => {
     return(
         <View style={styles.container}>
+            {/* header */}
             <View style={styles.header}>
                 <Text style={{fontWeight: 'bold'}}>{USER}</Text>
             </View>
             <View style={styles.user}>
-                <Image style={{width: 69, height: 69, borderRadius: 39}} source={{uri: 'https://i.pinimg.com/originals/9c/1f/42/9c1f425a3745f63bd0bbb48f160ebf7a.jpg'}} />
+                <Image style={{width: 69, height: 69, borderRadius: 39}} source={{uri: 'https://http2.mlstatic.com/foto-desenho-para-o-seu-perfil-das-redes-sociais-D_NQ_NP_614041-MLB27185740295_042018-O.jpg'}} />
+                    {/* information */}
                     <Text style={styles.information}>
                         <Text style={styles.values}>{POSTS} <br/></Text>
                         <Text style={{color: '#a9a9a9'}}>posts</Text>
@@ -37,13 +39,17 @@ export default () => {
                         <Text style={{color: '#a9a9a9'}}>following</Text>
                     </Text>
             </View>
-            <View style={styles.content}>
+            <View style={styles.description}>
                 <Text>
                     I LOVE REACT NATIVE 💜
                 </Text>
                 <TouchableOpacity style={styles.button}>
                     <Text>Edit Profile</Text>
                 </TouchableOpacity>
+            </View>
+            {/* gallery */}
+            <View style={styles.content}>
+                
             </View>
         </View>
     )
@@ -69,7 +75,7 @@ const styles = StyleSheet.create({
     values: {
         fontWeight: 'bold',
     },
-    content: {
+    description: {
         paddingTop: 20,
         textAlign: 'center',
         alignItems: 'center',
@@ -82,6 +88,9 @@ const styles = StyleSheet.create({
         marginTop: 20,
         padding: 5,
         fontWeight: 'bold',
+    },
+    content: {
+        
     }
 
 })
