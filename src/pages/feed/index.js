@@ -23,7 +23,7 @@ export default () => {
                     <View>
                         <View style={styles.header}>
                             <View style={styles.headerLeft}>
-                                <Image style={styles.avatar} source={{uri: 'https://images.squarespace-cdn.com/content/v1/51435924e4b02285c8b9c92d/1435276997644-5WE6FAVOB6Y9HZH89Y7A/ke17ZwdGBToddI8pDm48kNBhxsR5AixTPaSt36FQjZRZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIHEpb-MmdDNvFVgjmeoENIlexef176In2EgYPtI8R2-8KMshLAGzx4R3EDFOm1kBS/caiobraga-perfil.jpg'}} key={String(Math.random())}/>
+                                <Image style={styles.avatar} source={{uri: 'https://amofamilia.com.br/wp-content/uploads/2019/05/3F6B966D00000578-4428630-image-m-80_1492690622006.jpg'}} key={String(Math.random())}/>
                                 <Text style={styles.username}>{ps.name}</Text>              
                             </View>
                             <TouchableOpacity>
