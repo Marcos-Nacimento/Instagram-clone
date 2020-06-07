@@ -15,7 +15,6 @@ import { Feather as Icon } from '@expo/vector-icons'
 import { database } from '../../components/data'
 
 export default () => {
-    
     return(
         <View>
             {database.map((ps) => (
@@ -30,7 +29,7 @@ export default () => {
                                 <Icon name="more-horizontal" size={24} />
                             </TouchableOpacity>
                         </View>
-                        <Image style={{width: '100%', height: 400}} source={{uri: ps.post}} key={ps.id} />
+                        <Image style={{width: '100%', height: 400}} source={ {uri: ps.post} } key={ps.id} />
                     </View>
                     <View style={styles.foolter}>
                         <TouchableOpacity>
