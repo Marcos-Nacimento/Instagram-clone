@@ -39,7 +39,7 @@ export const users =
   // users
   {
     id: "79",
-    name: "Mateus",
+    name: "Voce",
     user:
       "https://http2.mlstatic.com/foto-desenho-para-o-seu-perfil-das-redes-sociais-D_NQ_NP_614041-MLB27185740295_042018-O.jpg",
     caption: "",
@@ -96,7 +96,7 @@ export const users =
     id: "29",
     name: "Caio",
     user:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTAwyWVknkyOhfS_1aCg2ecbXy-9TkeHiDYioOOJz5-0v30r3nY&usqp=CAU",
+      "https://amofamilia.com.br/wp-content/uploads/2019/05/3F6B966D00000578-4428630-image-m-80_1492690622006.jpg",
     caption: "",
   },
   {
