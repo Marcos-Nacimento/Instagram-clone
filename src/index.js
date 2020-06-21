@@ -54,9 +54,9 @@ export default () => {
                     
             >
                 <Tabs.Screen name='home' component={HomeScreen} />
-                <Tabs.Screen name='search' component={HomeScreen} />
-                <Tabs.Screen name='add' component={HomeScreen} />
-                <Tabs.Screen name='favorite' component={HomeScreen} />
+                <Tabs.Screen name='search'  component={HomeScreen}/>
+                <Tabs.Screen name='add'  component={HomeScreen}/>
+                <Tabs.Screen name='favorite'  component={HomeScreen}/>
                 <Tabs.Screen name='profile' component={ProfileScreen} />
             </Tabs.Navigator>
         </NavigationContainer>
