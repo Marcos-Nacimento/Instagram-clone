@@ -26,7 +26,7 @@ export default () => {
 }
 
 const style = StyleSheet.create({
-
+    
     container: {
         flex: 1,
     }
