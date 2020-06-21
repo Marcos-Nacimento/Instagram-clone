@@ -101,9 +101,9 @@ export const users =
   },
   {
     id: "18",
-    name: "Will",
+    name: "Carla",
     user:
-      "https://amofamilia.com.br/wp-content/uploads/2019/05/3F6B966D00000578-4428630-image-m-80_1492690622006.jpg",
+      "https://www.osaogoncalo.com.br/img/normal/60000/26170020_1502223309895867_3406427969325040621_n_00060937_0.jpg",
     caption: "",
   },
 ]
