@@ -22,7 +22,7 @@ export default () => {
                     <View>
                         <View style={styles.header}>
                             <View style={styles.headerLeft}>
-                                <Image style={styles.avatar} source={{uri: 'https://amofamilia.com.br/wp-content/uploads/2019/05/3F6B966D00000578-4428630-image-m-80_1492690622006.jpg'}} key={String(Math.random())}/>
+                                <Image style={styles.avatar} source={{uri: ps.post}} key={String(Math.random())}/>
                                 <Text style={styles.username}>{ps.name}</Text>              
                             </View>
                             <TouchableOpacity>
