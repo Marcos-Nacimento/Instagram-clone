@@ -17,7 +17,7 @@ export default () => {
     return(
         <SafeAreaView style={style.container}>
             <Header />
-            <ScrollView showsVerticalScrollIndicator={false}>
+            <ScrollView showsVerticalScrollIndicator={false}  >
                 <Stories />
                 <Feed />
             </ScrollView>
