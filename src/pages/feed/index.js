@@ -31,16 +31,23 @@ export default () => {
                         </View>
                         <Image style={{width: '100%', height: 400}} source={ {uri: ps.post} } key={ps.id} />
                     </View>
-                    <View style={styles.foolter}>
-                        <TouchableOpacity>
-                            <Icon name="heart" size={24} />
-                        </TouchableOpacity>
-                        <TouchableOpacity>
-                            <Icon name="message-circle" size={24}  />
-                        </TouchableOpacity>
-                        <TouchableOpacity>
-                            <Icon name="send" size={24}  />
-                        </TouchableOpacity>          
+                    <View style={styles.foolterContent}>
+                        <View style={styles.foolter}>
+                            <TouchableOpacity style={{margin: 10}}>
+                                <Icon name="heart" size={24} />
+                            </TouchableOpacity>
+                            <TouchableOpacity style={{margin: 10}}>
+                                <Icon name="message-circle" size={24}  />
+                            </TouchableOpacity>
+                            <TouchableOpacity style={{margin: 10}}>
+                                <Icon name="send" size={24}  />
+                            </TouchableOpacity>     
+                        </View>
+                        <View>
+                            <TouchableOpacity style={{margin: 10}}>
+                                <Icon name='bookmark' size={24} />
+                            </TouchableOpacity>
+                        </View>
                     </View>
                 </>        
             ))}
@@ -84,4 +91,8 @@ const styles = StyleSheet.create({
         flexDirection: "row",
         marginLeft: 15,
     },  
+    foolterContent: {
+        justifyContent: "space-between",
+        flexDirection: "row",
+    },
 });
