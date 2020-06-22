@@ -2,7 +2,7 @@ export const database =
   [
     // posts
     {
-      id: '75',
+      id: String(Math.random()),
       post: 'https://jornadakamoi.files.wordpress.com/2014/10/img_9078.jpg',
       name: 'Carlos',
     },
@@ -12,22 +12,22 @@ export const database =
       name: 'Jose',
     },
     {
-      id: '41',
+      id: String(Math.random()),
       post: 'https://i.pinimg.com/originals/b1/f2/0e/b1f20e60bee76a2ac38df2c36be25235.jpg',
       name: 'Luiz',
     },
     {
-      id: '52',
+      id: String(Math.random()),
       post: 'https://i.pinimg.com/originals/68/d4/77/68d477293ad1729027bc7da7a4bbfa4c.jpg',
       name: 'Marcos',
     },
     {
-      id: '15',
+      id: String(Math.random()),
       post: 'https://www.gazetaesportiva.com/wp-content/uploads/imagem/2020/04/07/EPxx4hJWAAAMS-M-1024x674.jpg',
       name: 'Mateus',
     },
     {
-      id: '5',
+      id: String(Math.random()),
       post: 'https://media.glassdoor.com/l/63/35/7d/bb/thompson-island-4k.jpg',
       name: 'Matias',
     },
@@ -38,49 +38,49 @@ export const users =
 [
   // users
   {
-    id: "79",
+    id: String(Math.random()),
     name: "Voce",
     user:
       "https://http2.mlstatic.com/foto-desenho-para-o-seu-perfil-das-redes-sociais-D_NQ_NP_614041-MLB27185740295_042018-O.jpg",
     caption: "",
   },
   {
-    id: "48",
+    id: String(Math.random()),
     name: "Joice",
     user:
       "https://www.dicasdemulher.com.br/wp-content/uploads/2019/06/legenda-para-foto-de-perfil-1200x738.jpg",
     caption: "",
   },
   {
-    id: "26",
+    id: String(Math.random()),
     name: "Carlos",
     user:
       "https://images.squarespace-cdn.com/content/v1/51435924e4b02285c8b9c92d/1435276997644-5WE6FAVOB6Y9HZH89Y7A/ke17ZwdGBToddI8pDm48kNBhxsR5AixTPaSt36FQjZRZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIHEpb-MmdDNvFVgjmeoENIlexef176In2EgYPtI8R2-8KMshLAGzx4R3EDFOm1kBS/caiobraga-perfil.jpg",
     caption: "",
   },
   {
-    id: "24",
+    id: String(Math.random()),
     name: "Lucas",
     user:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRIH8Woz_16Y8WH0qSKj0IuXmLFHc7zeSGx-7tbMzZbv-iVYo_d&usqp=CAU",
     caption: "",
   },
   {
-    id: "31",
+    id: String(Math.random()),
     name: "Messi",
     user:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ7g2_kc23lxiO2DI9fQexDiNuwum5kJQzHlJ_48GW4PUeNCoWn&usqp=CAU",
     caption: "",
   },
   {
-    id: "89",
+    id: String(Math.random()),
     name: "Maria",
     user:
       "https://i.pinimg.com/originals/9c/1f/42/9c1f425a3745f63bd0bbb48f160ebf7a.jpg",
     caption: "",
   },
   {
-    id: "105",
+    id: String(Math.random()),
     name: "Alice",
     user:
       "https://www.dicasdemulher.com.br/wp-content/uploads/2019/06/legenda-para-foto-de-perfil-03.jpg",
@@ -93,14 +93,14 @@ export const users =
     },
   },
   {
-    id: "29",
+    id: String(Math.random()),
     name: "Caio",
     user:
       "https://amofamilia.com.br/wp-content/uploads/2019/05/3F6B966D00000578-4428630-image-m-80_1492690622006.jpg",
     caption: "",
   },
   {
-    id: "18",
+    id: String(Math.random()),
     name: "Carla",
     user:
       "https://www.osaogoncalo.com.br/img/normal/60000/26170020_1502223309895867_3406427969325040621_n_00060937_0.jpg",
