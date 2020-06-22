@@ -22,7 +22,7 @@ export default () => {
                     <View>
                         <View style={styles.header}>
                             <View style={styles.headerLeft}>
-                                <Image style={styles.avatar} source={{uri: ps.post}} key={String(Math.random())}/>
+                                <Image style={styles.avatar} source={{uri: ps.post}} key={ps.id}/>
                                 <Text style={styles.username}>{ps.name}</Text>              
                             </View>
                             <TouchableOpacity>
