@@ -35,7 +35,7 @@ export default () => {
                 {users.map((item) => (
                     <TouchableOpacity style={styles.content}>
                         <Image style={{width: 60, height: 60, borderRadius: 33}} source={{uri: item.user}} key={item.id} />
-                        <Text style={styles.label} key={item.id}>{item.name}</Text>
+                        <Text style={styles.label}>{item.name}</Text>
                     </TouchableOpacity>
                 ))}
             </ScrollView>
