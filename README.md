@@ -10,9 +10,4 @@
 - React Navigation
 - Vector icons
 
-# 📱 Como executar 📱
-
-me## ~~
-https://github.com/Marcos-Nacimento/Instagram-clone.git
-mermaid
 
