@@ -6,7 +6,6 @@
 
 
 # 💻 Tecnologias 💻
-
 - React Native
 - React Navigation
 - Vector icons
